@@ -154,6 +154,7 @@ footer
 footer main
 -has two divs. one taking about 45 and the other 55% of the screen
 -display flex. 
+main1
 -Item one has 5 sub items.
 -sub1 is the title
 -sub2 is the content
@@ -162,5 +163,16 @@ footer main
 -sub5 is the store div. two items.direction row. div1 is the icon. about 20% of screen
 -div two is the location. has two items, directioncolumn
 -this is replicated for both the app and google play
+
+main2
+-display flex, direction row, width around 30%
+-each is also a flex container, direction column
+-the first one is bold, and larger
+-use a list to list them down
+
+
+
+
+
 
 -footer text
