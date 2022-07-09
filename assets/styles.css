@@ -1,0 +1,33 @@
+/* general styles */
+
+li {
+    list-style: none;
+}
+.line {
+    border: 2px solid #ED661F;
+    width: 2rem;
+    content: "";
+}
+
+
+
+
+/* main */
+
+
+
+
+/* navigation bar */
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+
+}
+
+.nav-list {
+    display: flex;
+}
