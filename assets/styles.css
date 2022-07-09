@@ -77,7 +77,10 @@ body{
 
 
 
-
+.break {
+    display: block;
+    content: " ";
+}
 
 /* introduction ie section2 */
 .introduction {
@@ -163,3 +166,21 @@ body{
     font-weight: bold;
 }
 
+/* ==============ABOUT-========================= */
+.break {
+    display: block;
+    content: " ";
+}
+.about {
+    display: flex;
+    margin: 2rem;
+}
+
+.about-child {
+    width: 50%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
