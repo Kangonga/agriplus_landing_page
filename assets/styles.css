@@ -177,6 +177,7 @@ body{
     display: flex;
     margin: 2rem;
     outline: 2px solid black;
+    justify-content: center;
 }
 
 .about-child {
@@ -186,9 +187,14 @@ body{
 .about-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .with-line-text {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 900;
+}
+
+.about-image {
+    width: 100%;
 }
