@@ -8,7 +8,11 @@ li {
     width: 2rem;
     content: "";
 }
-
+.line-long {
+    border: 2px solid #ED661F;
+    width: 3rem;
+    content: "";
+}
 
 
 .with-line {
@@ -88,11 +92,12 @@ body{
     flex-direction: column;
     justify-content:flex-start;
     width: 100%;
-    height: 70vw;
+    height: 50vw;
     background-image: url("images/image 1.png");
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: 90% -130%;
+    background-size: 100% 90%; 
+    background-position: 0 -100;
+    outline: 2px solid red;
     
 }
 .intro-main {
@@ -152,11 +157,11 @@ body{
 .statistics {
     display: flex;
     border: 2px solid white;
-    box-shadow: 3px 8px rgb(153, 139, 139);
+    box-shadow: 0 3px rgb(153, 139, 139);
     width: 69%;
     justify-content: center;
     gap: 3rem;
-    margin-top: 160px;
+    margin-top: 50px;
     background-color: white;
 
 }
@@ -167,13 +172,11 @@ body{
 }
 
 /* ==============ABOUT-========================= */
-.break {
-    display: block;
-    content: " ";
-}
+
 .about {
     display: flex;
     margin: 2rem;
+    outline: 2px solid black;
 }
 
 .about-child {
@@ -183,4 +186,9 @@ body{
 .about-content {
     display: flex;
     flex-direction: column;
+}
+
+.with-line-text {
+    font-size: 1.3rem;
+    font-weight: 900;
 }
