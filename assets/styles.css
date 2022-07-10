@@ -30,6 +30,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -233,23 +234,38 @@ body{
 
 
 /* most popular top */
-
+.most-popular {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
 .most-popular-top{
     font-size: 2rem;
     font-weight: 900;
+    padding: 0 7rem;
 }
 
 .most-popular-items {
     display: flex;
-    justify-items: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    outline: 2px solid red;
+
 }
 .most-popular-item {
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
 }
 
-
+.most-popular-item img {
+    width: 100%;
+}
 
 
 
