@@ -232,4 +232,27 @@ body{
 }
 
 
+/* most popular top */
+
+.most-popular-top{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.most-popular-items {
+    display: flex;
+    justify-items: space-between;
+}
+.most-popular-item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
 
