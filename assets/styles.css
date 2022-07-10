@@ -171,6 +171,7 @@ body{
     border: 2px solid #ED661F;
     width: 6rem;
     content: "";
+    background-color: #ED661F;
 }
 
 .about {
@@ -374,7 +375,66 @@ body{
     height: 70vh;  
     width: 100%;
     color: white;
+    display: flex;
+   
+   
+}
+.a {
+    width: 25%;
+    
+    padding: 3rem;
+    
+}
+svg {
+    width: 20%;
+    height: 90%;
 }
 
-.footer-child1 {}
-.footer-child2{}
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.top-child3 {
+    display: flex;
+}
+
+.top-child5 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.apple, .droid {
+    display: flex;
+    background-color: rgb(255, 241, 214);
+    justify-content: space-around;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.apple div, .droid div {
+    
+}
+
+.icon-float {
+    width: 30%;
+}
+.icon-float > svg {
+    width: 100%;
+}
+
+
+.b  {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 3rem;
+}
+.b div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
