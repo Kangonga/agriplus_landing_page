@@ -8,11 +8,6 @@ li {
     width: 2rem;
     content: "";
 }
-.line-long {
-    border: 2px solid #ED661F;
-    width: 3rem;
-    content: "";
-}
 
 
 .with-line {
@@ -97,7 +92,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 90%; 
     background-position: 0 -100;
-    outline: 2px solid red;
     
 }
 .intro-main {
@@ -172,16 +166,21 @@ body{
 }
 
 /* ==============ABOUT-========================= */
+.line-long {
+    border: 2px solid #ED661F;
+    width: 6rem;
+    content: "";
+}
 
 .about {
     display: flex;
     margin: 2rem;
-    outline: 2px solid black;
-    justify-content: center;
+    justify-content: space-between;
+    line-height: 1.7rem;
 }
 
 .about-child {
-    width: 60%;
+    width: 50%;
 }
 
 .about-content {
@@ -195,6 +194,7 @@ body{
 .with-line-text {
     font-size: 2rem;
     font-weight: 900;
+    margin-bottom: 0.5rem;
 }
 
 .about-text-body {
@@ -203,3 +203,33 @@ body{
 .about-image {
     width: 70%;
 }
+/* ======== ========    categories-intro  =============   === === === ====    ====    =====   =====    */
+.cat-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.cat-title-text {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem;
+}
+
+.cat-footer {
+    font-size: 1.2rem;
+    width: 40%;
+    text-align: center;
+}
+.about-line-long {
+    border: 2px solid #ED661F;
+    width: 6rem;
+    content: "";
+    align-self: center;
+}
+
+
+
