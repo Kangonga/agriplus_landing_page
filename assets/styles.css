@@ -254,7 +254,6 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    outline: 2px solid red;
 
 }
 .most-popular-item {
@@ -305,3 +304,77 @@ body{
 .person div img {
     width: 60%;
 }
+
+
+/* ----------------------separator -------------------------------------------------------*/
+.separator {
+    height: 3vh;
+    width: 100%;
+    content: " ";
+    background-color: gray;
+    margin: 2vh 0;
+}
+
+/* -------------------------outro============================================================== */
+
+.outro {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 5vh;
+}
+.outro-child {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 2rem 0;
+}
+.outro-child1 {
+    text-align: center;
+}
+.outro-button {
+    background-color: #ED661F;
+    color: white;
+    text-align: center;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border: none;
+}
+#text-box {
+    margin-right: 0;
+    height: 2.8rem;
+    border: none;
+    margin: 1px 0;
+    text-align: center;
+    width: 20rem;
+    
+}
+
+.out1 {
+    font-size: 2rem;
+}
+
+.out2 {
+    font-size: 1.1rem;
+}
+
+
+
+/* ----------------------- footer ------------------------------------------------------------------ */
+
+.footer {
+    margin: 2rem 0; 
+    background-color: black;
+    height: 70vh;  
+    width: 100%;
+    color: white;
+}
+
+.footer-child1 {}
+.footer-child2{}
