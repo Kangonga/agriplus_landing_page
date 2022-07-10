@@ -24,7 +24,6 @@ li {
 
 
 
-
 /* main */
 body{
     width: 100%;
@@ -438,3 +437,23 @@ svg {
     flex-direction: column;
     gap: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.arrow {
+    width: 20%;
+    }
