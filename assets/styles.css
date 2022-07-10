@@ -275,8 +275,8 @@ body{
     padding-left: 6rem;
 }
 .reviews-title {
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .review-items {
@@ -284,11 +284,13 @@ body{
     justify-content: space-between;
 }
 .review-child {
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
+    padding: 0 3rem;
+    margin-top: 2rem;
 }
 
 .quote {
@@ -297,9 +299,8 @@ body{
 }
 .person {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0.5rem 1rem;
 }
 .person div img {
     width: 60%;
